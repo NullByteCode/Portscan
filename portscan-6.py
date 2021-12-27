@@ -109,10 +109,13 @@ if __name__ == "__main__":
 
         if (ent == "01"):
             portscan_manual()
+            break
         elif (ent == "02"):
             portscan_default()
+            break
         elif (ent == "03"):
             portscan_full()
+            break
         elif (ent == "00"):
             print("Exiting...")
             break
